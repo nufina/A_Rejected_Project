@@ -1,0 +1,286 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url(img/background_green.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    height:100%;
+	background: rgba(0, 0, 0, 0.86);
+	position: relative;
+	margin: auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.contents {
+    width: 600px;
+    height:100%;
+    background: none;
+    color: #f8f2f2;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+	padding: 40px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+	line-height: 1.6;
+	width: 600px;
+}
+
+.version h3 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	text-align: center;
+}
+
+.by p {
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+	padding: 20px;
+    margin: auto;
+	margin-top: -60px;
+}
+
+.download {
+	margin: auto;
+	border-bottom: 1px solid #aca8a8;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #61c1d3;
+}
+
+a:hover {
+	color: #aca8a8;
+}
+
+
+.color img {
+    width: 600px;
+    margin: auto;
+	align-content: center;
+}
+
+.slide img {
+    height: 400px;
+    margin: auto;
+    
+}
+
+.breakdown img {
+    width: 600px;
+    margin: auto;
+}
+
+.about img {
+    width: 400px;
+}
+
+.getInvolved img{
+    width: 400px;
+}
+
+.donation img{
+    width: 400px;
+}
+
+/* 
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @nufina Sign out
+0
+0 0 nufina/coba.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+coba.github.io/style.css
+958b9fe  2 minutes ago
+@nufina nufina Update style.css
+     
+154 lines (122 sloc)  2.01 KB
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url(img/background_rgb.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    height:100%;
+	position: relative;
+	margin: auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.contents {
+    width: 600px;
+    height:100%;
+    background: none;
+    color: #f8f2f2;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+    padding: 40px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+	line-height: 1.6;
+	width: 600px;
+}
+
+.version h3 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	text-align: center;
+}
+
+.by p {
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+	padding: 20px;
+    margin: auto;
+}
+
+a:hover {
+	color: #aca8a8;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #61c1d3;
+}
+
+.color img {
+    width: 600px;
+    margin: auto;
+	align-content: center;
+}
+
+.slide img {
+    width: 600px;
+    margin: auto;
+    
+}
+
+.breakdown img {
+    width: 600px;
+    margin: auto;
+}
+
+.about img {
+    width: 400px;
+}
+
+.getInvolved img{
+    width: 400px;
+}
+
+.donation img{
+    width: 400px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 320px;
+		height: 100%;
+	}
+	
+	.contents {
+		width: 280px;
+	}
+	
+	p {
+		width: 220px;
+	}
+	
+	h1 {
+		padding: 15px;
+	}
+	
+	.color img {
+    		width: 200px;
+    		margin: auto;
+		align-content: center;
+	}
+
+	.slide img {
+   		width: 200px;
+    		margin: auto;
+    
+	}
+
+	.breakdown img {
+    		width: 200px;
+    		margin: auto;
+	}
+
+	.about img {
+    		width: 120px;
+	}
+
+	.getInvolved img{
+    		width: 120px;
+	}
+
+	.donation img{
+    		width: 120px;
+	}
+}
+
+*/
